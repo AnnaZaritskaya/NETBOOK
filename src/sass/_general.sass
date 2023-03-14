@@ -1,0 +1,82 @@
+.promo
+  width: 100%
+  min-height: 746px
+  background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%)
+  z-index: 4
+  &:before
+    content: ''
+    display: block
+    position: relative
+    width: 100%
+    top: 108px
+    border-bottom: 1px solid #217BF4
+    opacity: 0.1
+    z-index: 5
+.header
+  padding-top: 40px
+  display: flex
+  justify-content: space-between
+  &__block-l
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__logo
+    display: block
+    width: 143px
+    height: 34px
+    margin-right: 72px
+  &__menu
+    ul
+      display: flex
+      list-style-type: none
+      li
+        margin-right: 32px
+        &:nth-last-child(1)
+          margin-right: 0
+        span
+          display: inline-block
+          width: 9px
+          height: 9px
+          background-size: 100% 100%
+          background-image: url('../../src/img/svg/angleDown.svg') center center/cover no-repeat
+        a
+          font-weight: 400
+          font-size: 18px
+          text-decoration: none
+          color: #656464
+          &:hover
+            color: #2B2B39
+  &__block-r
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__deskbar
+    display: inline-block
+    position: relative
+    &:before
+        content: ''
+        display: block
+        position: absolute
+        width: 12px
+        height: 12px
+        top: 19px
+        background-size: 100% 100%
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3e%3cg style='stroke-width:1.05103'%3e%3cpath d='M206.045-12.793c-121.38 0-220.65 99.363-220.65 220.783 0 121.42 99.27 220.783 220.65 220.783 121.38 0 220.65-99.362 220.65-220.783 0-121.42-99.27-220.783-220.65-220.783zm0 84.082c75.905 0 136.566 60.689 136.566 136.701 0 76.013-60.66 136.701-136.566 136.701-75.905 0-136.568-60.688-136.568-136.7 0-76.013 60.663-136.702 136.568-136.702z' style='color:%23000;fill:%23000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers' transform='matrix(.95173 0 0 .95116 13.901 12.169)'/%3e%3cpath d='M332.156 292.146a42.041 42.041 0 0 0-29.732 12.305 42.041 42.041 0 0 0-.018 59.455l241.639 241.787a42.041 42.041 0 0 0 59.455.018 42.041 42.041 0 0 0 .02-59.455L361.878 304.47a42.041 42.041 0 0 0-29.723-12.325z' style='color:%23000;fill:%23000;stroke-linecap:round;-inkscape-stroke:none' transform='matrix(.95173 0 0 .95116 13.901 12.169)'/%3e%3cpath d='M300.477-223.752a10.51 10.51 0 0 0-10.512 10.51 89.363 89.363 0 0 1-35.004 70.949 89.234 89.234 0 0 1-77.566 15.334 10.51 10.51 0 0 0-12.887 7.406 10.51 10.51 0 0 0 7.408 12.887 110.307 110.307 0 0 0 95.832-18.943c27.25-20.885 43.238-53.291 43.238-87.633a10.51 10.51 0 0 0-10.51-10.51z' style='color:%23000;fill:%23000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers' transform='matrix(.95173 0 0 -.95116 13.901 12.169)'/%3e%3c/g%3e%3c/svg%3e")
+    .search-form-input
+      max-width: 111px
+      height: 51px
+      line-height: 14px
+      margin: 0 47px 0 0
+      padding: 0 0 0 17px
+      border-bottom: 1px solid #E5E5E5
+      border-radius: 0
+      background-color: rgba(0, 0, 0, 0)
+      font-size: 12px
+  &__button
+    font-weight: 600
+    font-size: 12px
+    color: #fff
+.text__img
+  width: 586px
+  height:502px
+  background: url('../../src/img/header_bg/header_bg.png') center center/cover no-repeat
